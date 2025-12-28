@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import { Project } from '@/lib/types';
 import { Github, ExternalLink } from 'lucide-react';
+import Image from 'next/image';
 
 interface ProjectCardProps {
     project: Project;
@@ -22,10 +23,11 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
             {/* Project Image/Gradient Background */}
             <div className="h-48 bg-gradient-to-br from-primary/20 via-accent-purple/20 to-accent-cyan/20 relative overflow-hidden">
                 {project.imageUrl ? (
-                    <img
+                    <Image
                         src={project.imageUrl}
                         alt={project.title}
-                        className="w-full h-full object-cover opacity-80 group-hover:scale-110 transition-transform duration-500"
+                        fill
+                        className="object-cover opacity-80 group-hover:scale-110 transition-transform duration-500"
                     />
                 ) : (
                     <div className="absolute inset-0 flex items-center justify-center">

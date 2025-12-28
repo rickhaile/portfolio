@@ -66,14 +66,14 @@ export default function About() {
                         className="glass rounded-2xl p-8 mb-12"
                     >
                         <p className="text-text-secondary text-lg leading-relaxed mb-4">
-                            I'm <span className="text-primary font-semibold">Dagim Haile Bekele</span>, a Digital Economics student at
+                            I am <span className="text-primary font-semibold">Dagim Haile Bekele</span>, a Digital Economics student at
                             Università Politecnica delle Marche with a passion for Data Science and AI. I graduated with
                             <span className="text-accent-cyan font-semibold"> 110/110 Cum Laude</span> (highest distinction) and was ranked
-                            in the <span className="text-accent-purple font-semibold">top 0.5%</span> among 450,000+ students in Ethiopia's national examination.
+                            in the <span className="text-accent-purple font-semibold">top 0.5%</span> among 450,000+ students in Ethiopia&apos;s national examination.
                         </p>
                         <p className="text-text-secondary text-lg leading-relaxed">
                             My experience spans from building production-ready RAG systems with Hybrid AI architectures to conducting
-                            longitudinal environmental economics research. I'm committed to continuous learning with multiple professional
+                            longitudinal environmental economics research. I am committed to continuous learning with multiple professional
                             certifications in Data Engineering and Analytics from Google and DataCamp.
                         </p>
                     </motion.div>
@@ -95,7 +95,7 @@ export default function About() {
                                 <h4 className="text-lg font-semibold text-text-primary">Research Data Analyst Intern</h4>
                                 <p className="text-primary-light text-sm">Department of Economics and Social Sciences, UnivPM • May 2025 – July 2025</p>
                                 <p className="text-text-secondary mt-2">
-                                    Conducted comprehensive longitudinal study on environmental economics. Achieved "Excellent" performance
+                                    Conducted comprehensive longitudinal study on environmental economics. Achieved &quot;Excellent&quot; performance
                                     rating for problem-solving autonomy and technical competence.
                                 </p>
                             </div>

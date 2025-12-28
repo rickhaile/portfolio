@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { useState } from 'react';
-import { Send, CheckCircle, AlertCircle } from 'lucide-react';
+import { Send, CheckCircle } from 'lucide-react';
 import Input from '@/components/ui/Input';
 import Button from '@/components/ui/Button';
 import { ContactFormData } from '@/lib/types';
@@ -85,7 +85,7 @@ export default function Contact() {
                             <h2 className="text-4xl md:text-5xl font-bold gradient-text">Get In Touch</h2>
                         </motion.div>
                         <p className="text-text-secondary text-lg">
-                            Have a project in mind? Let's work together to create something amazing!
+                            Have a project in mind? Let us work together to create something amazing!
                         </p>
                     </div>
 
@@ -106,7 +106,7 @@ export default function Contact() {
                                 <CheckCircle size={64} className="text-green-500 mx-auto mb-4" />
                                 <h3 className="text-2xl font-bold text-text-primary mb-2">Message Sent!</h3>
                                 <p className="text-text-secondary">
-                                    Thanks for reaching out. I'll get back to you as soon as possible.
+                                    Thanks for reaching out. I will get back to you as soon as possible.
                                 </p>
                             </motion.div>
                         ) : (
